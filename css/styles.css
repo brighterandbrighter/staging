@@ -20,6 +20,13 @@
 	color:#fff;
 	text-shadow:none;
 }
+
+@font-face {
+  font-family: 'Figtree';
+  font-style: normal;
+  src: url("../img/demo/Figtree-VariableFont_wght.ttf") format('ttf');
+}
+
 html {
 	font-size:62.5%;
 	line-height:1.6;
