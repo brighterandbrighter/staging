@@ -21,11 +21,20 @@
 	text-shadow:none;
 }
 
+
 @font-face {
-  font-family: 'Figtree';
-  font-style: normal;
-  src: url("../img/demo/Figtree/Figtree-VariableFont_wght.ttf") format('ttf');
+  font-family: "Figtree";
+  src: local("Figtree"),
+    url("/assets/Figtree-VariableFont_wght.ttf") format("ttf");
 }
+
+@font-face {
+  font-family: "Ginkgo";
+  src: local("Ginkgo"),
+    url("/assets/Ginkgo-regular.ttf") format("ttf");
+}
+
+
 
 html {
 	font-size:62.5%;
