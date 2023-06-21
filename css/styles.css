@@ -24,7 +24,7 @@
 @font-face {
   font-family: 'Figtree';
   font-style: normal;
-  src: url("../img/demo/Figtree-VariableFont_wght.ttf") format('ttf');
+  src: url("../img/demo/Figtree/Figtree-VariableFont_wght.ttf") format('ttf');
 }
 
 html {
