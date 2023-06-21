@@ -220,6 +220,9 @@ background: radial-gradient(circle, rgba(18,78,35,0.3) 0%, rgba(252,70,107,0) 10
 
 .about-emma .wrapper {
 	margin-top: 20rem;
+	background: rgb(35,89,81);
+    background: linear-gradient(45deg, rgba(35,89,81,1) 0%, rgba(23,99,44,1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(35,89,81,1) 0%, rgba(23,99,44,1) 100%);
 
 }
 
@@ -233,7 +236,6 @@ background: radial-gradient(circle, rgba(18,78,35,0.3) 0%, rgba(252,70,107,0) 10
 
 .about-emma .main-nav {
 	padding: 3.5rem 0 0;
-	height: 100%;
 
 }
 
