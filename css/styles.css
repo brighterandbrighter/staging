@@ -180,13 +180,19 @@ background: radial-gradient(circle, rgba(18,78,35,0.3) 0%, rgba(252,70,107,0) 10
 }
 
 .about-emma {
-	background:url("../img/demo/header.jpg") 50% 0 no-repeat;
-	background-size:contain;
+	background-color: #1D723B;
+	background: rgb(35,89,81);
+    background: linear-gradient(45deg, rgba(35,89,81,1) 0%, rgba(23,99,44,1) 100%);
+    background: -webkit-linear-gradient(45deg, rgba(35,89,81,1) 0%, rgba(23,99,44,1) 100%);
 }
 
+
+
+
 .about-emma .header {
-	height: 20rem;
-	background: transparent;
+	height: 22rem;
+	background:url("../img/demo/header.jpg") 50% 0 no-repeat;
+	background-size:cover;
 }
 
 .about-emma .logo, .about-emma .btn-top {
@@ -194,12 +200,9 @@ background: radial-gradient(circle, rgba(18,78,35,0.3) 0%, rgba(252,70,107,0) 10
 }
 
 .about-emma .btn-top {
-	margin-top: 10px;
+	margin-top: 2rem;
 }
 
-.about-emma .menu li a {
-	padding: 65px 20px;
-}
 
 .about-emma .services {
 	border-radius: 300px 300px 0 0;
@@ -217,6 +220,7 @@ background: radial-gradient(circle, rgba(18,78,35,0.3) 0%, rgba(252,70,107,0) 10
 
 .about-emma .wrapper {
 	margin-top: 20rem;
+
 }
 
 .about-emma .team-content-wrapper {
@@ -225,6 +229,12 @@ background: radial-gradient(circle, rgba(18,78,35,0.3) 0%, rgba(252,70,107,0) 10
     -ms-grid-columns: 1fr 22fr 1fr;
     grid-template-columns: 1fr 22fr 1fr;
     margin-bottom: 20px;
+}
+
+.about-emma .main-nav {
+	padding: 3.5rem 0 0;
+	height: 100%;
+
 }
 
 .about-emma .secondary-nav {
@@ -238,6 +248,10 @@ background: radial-gradient(circle, rgba(18,78,35,0.3) 0%, rgba(252,70,107,0) 10
     text-align: center;
     padding: 100px 0 0px;
 
+}
+
+.about-emma .responsive-menu {
+	padding: 5.5rem 0;
 }
 
 .about-emma .secondary-nav a {
@@ -276,11 +290,12 @@ color: #000;
 	top:0;
 	left: 50%;
 	margin-left: -20rem;
-	margin-top: 20rem;
+	margin-top: 25rem;
 }
 
 .about-emma .section-header-wrapper h2 {
-	margin-top: 10rem;
+	margin-top: 12rem;
+	letter-spacing: -1px;
 }
 
 .about-emma footer {
@@ -541,6 +556,12 @@ button.btn-top {
 	z-index:100;
 }
 
+
+.about-emma .menu li a {
+	padding: 10rem 3rem;
+	margin-top: -3.6rem;
+}
+
 .responsive-menu {
 	display:none;
 	color:#fff;
@@ -601,7 +622,7 @@ button.btn-top {
 	font-size:10rem;
 	line-height:1;
 	margin:0;
-	letter-spacing:-4px;
+	letter-spacing:-1px;
 }
 .section-header p,
 .services-info-content p {
@@ -3399,6 +3420,14 @@ section .gutter {
 	html {
 		font-size:50%;
 	}
+
+	.about-emma .menu-wrapper {
+	padding-top: 3.5rem;
+}
+
+.about-emma .menu li a {
+	padding: 65px 20px;
+}
 	.text-rotator, .hero-text {
 		font-size:6rem;
 	}
@@ -3453,8 +3482,23 @@ section .gutter {
 		text-align:center;
 	}
 	.logo {
-		top:70px;
+		left:0;
+		margin-left: 6rem;
+		margin-top: -20px;
 	}
+
+	.logo img {
+		left: 0;
+		top: 0;
+	}
+.about-emma .menu-wrapper {
+	padding-top: 3.5rem;
+}
+
+.about-emma .menu li a {
+	padding: 65px 20px;
+}
+
 	.social-top {
 		top:20px;
 	}
