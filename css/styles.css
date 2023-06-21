@@ -256,6 +256,10 @@ background: radial-gradient(circle, rgba(18,78,35,0.3) 0%, rgba(252,70,107,0) 10
 
 }
 
+.about-emma ul ul {
+	margin-left: 1rem;
+}
+
 .about-emma .secondary-nav {
     position: relative;
     width: 100%;
