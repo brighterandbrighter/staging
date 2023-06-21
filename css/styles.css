@@ -31,10 +31,9 @@
 @font-face {
   font-family: "Ginkgo";
   src: local("Ginkgo"),
-    url("/assets/Ginkgo-regular.ttf") format("ttf");
+    url("/assets/Ginkgo-Regular.ttf") format("ttf") url("/assets/Ginkgo-Regular.otf")
+      format("opentype"), url("/assets/Ginkgo-Regular.woff") format("woff");
 }
-
-
 
 html {
 	font-size:62.5%;
